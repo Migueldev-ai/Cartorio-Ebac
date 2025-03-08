@@ -70,11 +70,11 @@ int consulta()
 	
 	if(file==NULL)
 	{
-		printf("Arquivo n„o localizado \n");
+		printf("Arquivo n√£o localizado \n");
 	}
 	if(fgets(conteudo,200,file)!= NULL)
 	{
-		printf("\nEssas s„o as informaÁıes do usu·rio:\n");
+		printf("\nEssas s√£o as informa√ß√µes do usu√°rio:\n");
 	}
 	
 	while(fgets(conteudo,200,file)!= NULL)
@@ -99,7 +99,7 @@ int deletar()
 	
 	if(file == NULL)
 	{
-		printf("\nArquivo n„o encontrado\n");
+		printf("\nArquivo n√£o encontrado\n");
 		system("pause");
 	}
 
@@ -118,14 +118,14 @@ int main()
 	
 		system("cls");
 		
-		printf("--- CART”RIO DA EBAC --- \n\n");
-		printf("Escolha a opÁ„o desejada no menu:\n\n");
+		printf("--- CART√ìRIO DA EBAC --- \n\n");
+		printf("Escolha a op√ß√£o desejada no menu:\n\n");
 		printf("\t1 - Registrar nomes\n");
 		printf("\t2 - Consultar nomes\n");
 		printf("\t3 - Deletar nomes\n");
 		printf("\t4 - Sair\n\n");
 		
-		printf("OpÁ„o: ");
+		printf("Op√ß√£o: ");
 		scanf("%d", &opcao);
 		
 		system("cls");
@@ -151,7 +151,7 @@ int main()
 	
 			default:
 		
-			printf("\t- OpÁ„o indisponÌvel\n");
+			printf("\t- Op√ß√£o indispon√≠vel\n");
 			system("pause");
 			break;
 		}
